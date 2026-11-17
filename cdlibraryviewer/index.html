@@ -1,9 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CDLibraryViewer | TY Forma</title>
+
+  <title>CDLibraryViewer | Mac用CDライブラリ管理・WavPack再生アプリ</title>
+
+  <meta name="description"
+        content="CDLibraryViewerは、WavPack形式の音楽ファイルを管理・再生するmacOSアプリです。Embedded CUE、アルバム画像、ライナーノーツ、楽曲・演奏者検索に対応。CDコレクションを見やすく整理できます。">
+
+  <link rel="canonical"
+        href="https://tyforma.github.io/cdlibraryviewer/">
 
   <style>
     * {
@@ -12,8 +20,9 @@
 
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-                   "Hiragino Sans", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "Helvetica Neue", "Hiragino Sans",
+                   sans-serif;
       color: #1d1d1f;
       background: #ffffff;
     }
@@ -52,8 +61,8 @@
     }
 
     section {
-      margin-top: 100px;
-      padding-top: 40px;
+      margin-top: 80px;
+      padding-top: 36px;
       border-top: 1px solid #d2d2d7;
     }
 
@@ -62,9 +71,18 @@
       margin: 0 0 20px;
     }
 
-    p {
+    h3 {
+      font-size: 21px;
+      margin: 30px 0 10px;
+    }
+
+    p, li {
       font-size: 17px;
-      line-height: 1.7;
+      line-height: 1.8;
+    }
+
+    li {
+      margin-bottom: 6px;
     }
 
     a {
@@ -74,6 +92,13 @@
 
     a:hover {
       text-decoration: underline;
+    }
+
+    .app-store-link {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: 18px;
+      font-weight: 600;
     }
 
     footer {
@@ -97,6 +122,10 @@
       .lead {
         font-size: 20px;
       }
+
+      h2 {
+        font-size: 26px;
+      }
     }
   </style>
 </head>
@@ -110,34 +139,157 @@
   <main>
 
     <h1>CDLibraryViewer</h1>
+
     <p class="lead">
       CDライブラリを、もっと見やすく、もっと楽しみやすく。
     </p>
 
-    <section>
-      <h2>CDLibraryViewerについて</h2>
-      <p>
-        CDLibraryViewerは、CDから取り込んだ音楽ライブラリを
-        整理・閲覧し、再生するためのmacOSアプリケーションです。
-      </p>
-      <p>
-        アルバムや楽曲の情報、ジャケット画像、ライナーノーツなどを
-        一つのライブラリとして管理できます。
-      </p>
-    </section>
+    <p>
+      CDLibraryViewerは、CDから取り込んだ音楽を整理・閲覧・再生するためのmacOSアプリです。
+    </p>
 
     <p>
-      <a href="https://apps.apple.com/jp/app/cdlibraryviewer/id6824181150?mt=12">
+      アルバムのジャケットを眺めながら音楽を選び、収録曲や演奏者の情報を確認し、
+      ライナーノーツを読みながら音楽を楽しむ。
+    </p>
+
+    <p>
+      CDコレクションをデジタル化した後も、一枚一枚のアルバムを大切に楽しむためのシンプルな音楽ライブラリです。
+    </p>
+
+    <p>
+      <a class="app-store-link"
+         href="https://apps.apple.com/jp/app/cdlibraryviewer/id6824181150?mt=12">
         Mac App Storeで見る
       </a>
     </p>
 
     <section>
-      <h2>サポート</h2>
+      <h2>主な機能</h2>
+
+      <h3>アルバムを一覧で閲覧</h3>
       <p>
-        CDLibraryViewerについてのご質問、不具合のご報告、
-        その他のお問い合わせは、下記メールアドレスまでご連絡ください。
+        CDから取り込んだアルバムを、ジャケット画像とともに一覧表示します。<br>
+        アルバムを選択すると、収録曲や演奏者などの詳細情報を確認できます。
       </p>
+      <p>
+        ジャンルによる絞り込みや、よく利用するジャンルのピン留めにも対応しています。
+      </p>
+
+      <h3>WavPack形式の音楽を再生</h3>
+      <p>
+        CDLibraryViewerは、可逆圧縮音声形式であるWavPackに対応しています。
+      </p>
+      <p>
+        アルバム単位で保存したWavPackファイルと、そこに埋め込まれたCUE情報を利用して、アルバム内の各トラックを再生できます。
+      </p>
+      <p>
+        音楽の再生中も、アルバムや収録曲の情報を閲覧できます。
+      </p>
+
+      <h3>ジャケットとライナーノーツを管理</h3>
+      <p>
+        アルバムの表ジャケット、裏ジャケットに加え、ライナーノーツの画像も管理・表示できます。
+      </p>
+      <p>
+        CDに付属していた解説や収録情報を、音楽ファイルとともに保存して楽しめます。
+      </p>
+
+      <h3>アルバム・楽曲・人物を検索</h3>
+      <p>
+        アルバム名や楽曲名だけでなく、作曲者や演奏者などの人物情報からも音楽を探せます。
+      </p>
+      <p>
+        日本語や別名での人物の検索にも対応しており、クラシックやジャズなど、多くの演奏者や作曲者が登場するコレクションの検索に役立ちます。
+      </p>
+
+      <h3>アルバム情報を編集</h3>
+      <p>
+        アルバムや収録曲の情報を編集できます。<br>
+        ジャケットやライナーノーツの画像も追加・管理できます。
+      </p>
+
+      <h3>再生履歴を確認</h3>
+      <p>
+        再生したアルバムや楽曲の履歴を確認できます。<br>
+        履歴は個別に削除することも、まとめて削除することもできます。
+      </p>
+    </section>
+
+    <section>
+      <h2>こんな方におすすめ</h2>
+
+      <ul>
+        <li>
+          CDコレクションをMacで管理したい方
+        </li>
+        <li>
+          WavPack形式で音楽を保存している方
+        </li>
+        <li>
+          クラシックやジャズのアルバムを
+          演奏者・作曲者から探したい方
+        </li>
+        <li>
+          ジャケットやライナーノーツも
+          一緒に保存して楽しみたい方
+        </li>
+        <li>
+          多機能な音楽管理ソフトよりも、
+          シンプルで軽快な操作を好む方
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>対応する音楽ファイルについて</h2>
+
+      <p>
+        CDLibraryViewerは、WavPack形式の
+        音楽ライブラリを対象としています。
+      </p>
+
+      <p>
+        特に、CDの音声をアルバム単位で保存し、
+        トラック情報をEmbedded CUEとして
+        埋め込んだファイル構成を想定しています。
+      </p>
+
+      <p>
+        MP3、AAC、FLACなど、
+        ほかの音声形式の再生には対応していません。
+      </p>
+
+      <p>
+        ご利用前に、お手持ちの音楽ファイル形式を
+        ご確認ください。
+      </p>
+    </section>
+
+    <section>
+      <h2>Mac App Store</h2>
+
+      <p>
+        CDLibraryViewerは、Mac App Storeから入手できます。
+      </p>
+
+      <p>
+        <a class="app-store-link"
+           href="https://apps.apple.com/jp/app/cdlibraryviewer/id6824181150?mt=12">
+          CDLibraryViewerをMac App Storeで見る
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>サポート</h2>
+
+      <p>
+        CDLibraryViewerについてのご質問、
+        不具合のご報告、その他のお問い合わせは、
+        下記メールアドレスまでご連絡ください。
+      </p>
+
       <p>
         <a href="mailto:tyforma.support@gmail.com">
           tyforma.support@gmail.com
@@ -147,11 +299,15 @@
 
     <section>
       <h2>プライバシー</h2>
+
       <p>
         CDLibraryViewerは、ユーザーの個人情報および利用情報を収集しません。
       </p>
+
       <p>
-        <a href="privacy.html">プライバシーポリシーを見る</a>
+        <a href="privacy.html">
+          プライバシーポリシーを見る
+        </a>
       </p>
     </section>
 
