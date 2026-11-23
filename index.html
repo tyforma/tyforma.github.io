@@ -71,6 +71,20 @@
       text-decoration: underline;
     }
     
+    .app-title a {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .app-icon {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      border-radius: 9px;
+      flex-shrink: 0;
+    }
+    
     p {
       font-size: 17px;
       line-height: 1.7;
@@ -126,32 +140,48 @@
     <section>
       <h2>アプリ</h2>
 
-      <h3>
-        <a href="/cdlibraryviewer/">CDLibraryViewer</a>
+      <h3 class="app-title">
+        <a href="/cdlibraryviewer/">
+          <img src="/images/cdlibraryviewer.png"
+               class="app-icon" alt="">
+          CDLibraryViewer
+        </a>
       </h3>
       <p>
         CDライブラリを整理・閲覧し、音楽を楽しむための
         macOSアプリケーションです。
       </p>
 
-      <h3>
-        <a href="/smarttimeline/">SmartTimeline</a>
+      <h3 class="app-title">
+        <a href="/smarttimeline/">
+          <img src="/images/smarttimeline.png"
+               class="app-icon" alt="">
+          SmartTimeline
+        </a>
       </h3>
       <p>
         複数の年表を共通の時間軸に沿って並べ、
         人物や歴史上の出来事を比較できるmacOSアプリです。
       </p>
 
-      <h3>
-        <a href="/pdfbookviewer/">PDFBookViewer</a>
+      <h3 class="app-title">
+        <a href="/pdfbookviewer/">
+          <img src="/images/pdfbookviewer.png"
+               class="app-icon" alt="">
+          PDFBookViewer
+        </a>
       </h3>
       <p>
         縦書きの書籍を見開きで快適に読むために作成した、
         無料のmacOS用PDFビューアです。
       </p>
 
-      <h3>
-        <a href="/oneclickocr/">OneClickOCR</a>
+      <h3 class="app-title">
+        <a href="/oneclickocr/">
+          <img src="/images/oneclickocr.png"
+               class="app-icon" alt="">
+          OneClickOCR
+        </a>
       </h3>
       <p>
         Macの画面に表示された文字を、簡単な操作で
